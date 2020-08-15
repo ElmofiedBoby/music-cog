@@ -1,5 +1,5 @@
 # music-bot
-Python-based discord music bot
+Python-based discord music bot cog, based off of https://github.com/Jess-v/music-bot
 
 ## Installation
 This will be assuming that you are running the bot on an Ubuntu-based Linux distribution. Instructions may need to be adjusted if using other distributions or another OS.
