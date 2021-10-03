@@ -1,4 +1,4 @@
-# music-bot
+# parrot discord bot
 Python-based discord music bot cog, based off of https://github.com/Jess-v/music-bot
 
 ## Installation
