@@ -20,7 +20,7 @@ async def on_reaction_add(reaction, user):
         await quotes.send("\"{0}\" -{1}".format(reaction.message.content, reaction.message.author))
 
 bot.load_extension('cogs.music_queue')
-bot.load_extension('cogs.music_play')
+#bot.load_extension('cogs.music_play')
 bot.load_extension('cogs.chat')
 
 bot.run(config.token)
