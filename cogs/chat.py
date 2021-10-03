@@ -20,3 +20,6 @@ class Chat(commands.Cog):
         if message.content.startswith('b') or message.content.startswith('B'):
             emoji_b = '\U0001F171' # 🅱
             await message.add_reaction(emoji_b)
+
+def setup(bot):
+    bot.add_cog(Chat(bot))

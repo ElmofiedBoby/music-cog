@@ -19,7 +19,7 @@ async def on_reaction_add(reaction, user):
     if reaction.emoji == '\U0001F4F8':
         await quotes.send("\"{0}\" -{1}".format(reaction.message.content, reaction.message.author))
 
-bot.load_extension('cogs.music')
+bot.load_extension('cogs.music_queue')
 bot.load_extension('cogs.chat')
 
 bot.run(config.token)
